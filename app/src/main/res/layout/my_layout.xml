@@ -58,14 +58,13 @@
         <androidx.core.widget.NestedScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:background="@drawable/bg_ly"
             app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
 
             <androidx.appcompat.widget.LinearLayoutCompat
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/bg_ly"
                 android:orientation="vertical"
-                android:layout_marginEnd="5dp"
                 android:layout_marginTop="35dp"
                 >
                 <ProgressBar
